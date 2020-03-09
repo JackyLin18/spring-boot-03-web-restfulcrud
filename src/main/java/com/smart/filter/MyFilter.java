@@ -18,6 +18,6 @@ public class MyFilter implements Filter, EventListener {
 
     @Override
     public void destroy() {
-
+        System.out.println("MyFilter destroy...");
     }
 }
